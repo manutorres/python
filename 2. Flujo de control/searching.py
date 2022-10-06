@@ -1,6 +1,6 @@
-shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
+shopping_list = ["leche", "pasta", "huevos", "queso", "pan", "arroz"]
 
-item_to_find = "albatross"
+item_to_find = "pollo"
 found_at = None
 
 # for index in range(6)
@@ -13,6 +13,6 @@ if item_to_find in shopping_list:
     found_at = shopping_list.index(item_to_find)
 
 if found_at != None:
-    print("Item found at position {}".format(found_at))
+    print("Item encontrado en la posición {}".format(found_at))
 else:
-    print("{} not fount".format(item_to_find))
+    print("{} no encontrado".format(item_to_find))

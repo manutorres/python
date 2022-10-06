@@ -1,23 +1,24 @@
 low = 1
 high = 1000
 
-print("Please think of a number between {} and {}".format(low, high))
-input("Press ENTER to start")
+print("Por favor piense en un número entre {} y {}".format(low, high))
+input("Presione ENTER para comenzar")
 
+# Algoritmo de Binary Search (Búsqueda Binaria)
 count = 0
 while True:
     guess = low + (high - low) // 2
-    count+1
-    high_low = input("My guess is {}. Should I guess higher or lower? "
-                    "Enter h or l, or c if my guess was correct: "
+    count += 1
+    high_low = input("Mi estimación es {}. Tendría que adivinar mayor o menor? "
+                     "Ingrese + o -, o c si adiviné correctamente: "
                      .format(guess)).casefold()
-    if high_low == "h":
+    if high_low == "+":
         low = guess + 1
-    elif high_low == "l":
+    elif high_low == "-":
         high = guess - 1
     elif high_low == "c":
-        # print("I got in {} guesses!".format(count))
-        print(f"I got in {count} guesses!")
+        # print("Lo adiviné en {} intentos!".format(count))
+        print(f"Lo adiviné en {count} intentos!")
         break
     else:
-        print("Please enter h, l or c")
+        print("Por favor ingrese +, -, o c")

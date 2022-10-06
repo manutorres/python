@@ -1,7 +1,7 @@
-name = input("Please enter your name: ")
-age = int(input("How old are you, {}? ".format(name)))
+name = input("Por favor ingrese su nombre: ")
+age = int(input("Cuántos años tenés, {}? ".format(name)))
 
 if 18 <= age < 31:
-    print("Welcome to 18-30 holidays, {0}!".format(name))
+    print("Bienvenido a las vacaciones de 18 a 30, {0}!".format(name))
 else:
-    print("Sorry, you aren't allowed here")
+    print("Lo siento, no tiene permitido el ingreso")

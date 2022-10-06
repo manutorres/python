@@ -1,13 +1,13 @@
 
 # 0, 0.0, 0j == False
 if 0:
-    print("True")
+    print("Verdadero")
 else:
-    print("False")
+    print("Falso")
 
 # "" == False
-name = input("Please enter your name:")
+name = input("Por favor, ingrese su nombre:")
 if name != "":
-    print("Hello, {}".format(name))
+    print("Hola, {}".format(name))
 else:
-    print("Are you the man with no name?")
+    print("Sos la persona sin nombre?")

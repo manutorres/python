@@ -1,11 +1,11 @@
-shopping_list = ["milk", "pasta", "eggs", "spam", "bread", "rice"]
+shopping_list = ["leche", "pasta", "huevos", "queso", "pan", "arroz"]
 
 for item in shopping_list:
-    if item == "spam":
+    if item == "queso":
         continue
-    print("Buy " + item)
+    print("Comprar " + item)
 
 for item in shopping_list:
-    if item == "spam":
+    if item == "queso":
         break
-    print("Buy " + item)
+    print("Comprar " + item)

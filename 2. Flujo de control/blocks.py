@@ -1,21 +1,22 @@
-name = input("Please enter your name: ")
-age = int(input("How old are you, {0}? ".format(name))) # Cast a int para evitar errores
+name = input("Por favor ingrese su nombre: ")
+# Cast a int para evitar errores
+age = int(input("Cuántos años tenés, {0}? ".format(name)))
 print(age)
 
 # Comentario multilinea con Ctrl + /
 # if age >= 18:
-#     print("You are old enough to vote")
-#     print("Please put an X in the box")
+#     print("Tenés suficiente edad para votar")
+#     print("Por favor, poné una X en el casillero")
 # else:
-#     print("Please come back in {0} years".format(18-age))
+#     print("Por favor regresá en {0} años".format(18-age))
 
 # Mismo resultado con la condicion invertida
 if age < 18:
-    print("Please come back in {0} years".format(18-age))
+    print("Por favor regresá en {0} años".format(18-age))
 elif age == 900:
-    print("Sorry, Joda, you die in return of the Jedi")
+    print("Perdón, Joda, ya moriste en el retorno del Jedi")
 else:
-    print("You are old enough to vote")
-    print("Please put an X in the box")
+    print("Tenés suficiente edad para votar")
+    print("Por favor, poné una X en el casillero")
 
 # Comentario para notar el git diff

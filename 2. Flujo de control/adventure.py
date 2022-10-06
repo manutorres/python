@@ -1,9 +1,9 @@
 available_exits = ["norte", "sur", "este", "oeste"]
 chosen_exit = ""
 while chosen_exit not in available_exits:
-    chosen_exit = input("Please choose a direction: ")
-    if chosen_exit.casefold() == "quit":
+    chosen_exit = input("Por favor elija una dirección: ")
+    if chosen_exit.casefold() == "salir":
         print("Game over")
         break
 
-print("aren't you glad you got out of there")
+print("Lograste salir!")

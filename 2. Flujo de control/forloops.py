@@ -1,5 +1,4 @@
-parrot = "Norwegian Blue"
+parrot = "Azul Turquesa"
 
 for character in parrot:
     print(character)
-

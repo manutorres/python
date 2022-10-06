@@ -1,8 +1,8 @@
-day = "Friday"
+day = "Viernes"
 temperature = 30
 raining = False
 
-if (day == "Saturday" and temperature > 27) or not raining:
-    print("Go swimming")
+if (day == "Domingo" and temperature > 27) or not raining:
+    print("Ir a nadar")
 else:
-    print("Learn Python")
+    print("Aprender Python")

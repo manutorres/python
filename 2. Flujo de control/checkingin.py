@@ -1,15 +1,15 @@
-parrot = "Norwegian Blue"
+parrot = "Azul Turqueza"
 
-letter = input("Enter a character: ")
+letter = input("Ingrese un caracter: ")
 
 if letter in parrot:
-    print("{} is in {}".format(letter, parrot))
+    print("{} está en {}".format(letter, parrot))
 else:
-    print("I don't need that letter")
+    print("No tengo esa letra")
 
 print("-" * 80)
 
-activity = input("What would you like to do today? ")
+activity = input("Qué te gustaría hacer hoy? ")
 
-if "cinema" not in activity.casefold(): #lowercase con mejor trato de algunos caracteres
-    print("But I want to go to the cinema")
+if "cine" not in activity.casefold():  # lowercase con mejor trato de algunos caracteres
+    print("Pero yo quiero ir al cine")
