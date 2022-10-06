@@ -3,7 +3,8 @@ letters = "abcdefghijklmnopqrstuvwxyz"
 
 backwards = letters[25:0:-1]    # Reverso pero no incluye el primero
 backwards = letters[25:-1:-1]   # De z a z sin incluirlo, o sea vacio
-backwards = letters[25::-1]     # Reverso, incluye hasta el principio por no especificar
+# Reverso, incluye hasta el principio por no especificar
+backwards = letters[25::-1]
 backwards = letters[::-1]       # Python idiom para el reverso de un string
 print(backwards)
 
@@ -17,4 +18,5 @@ print(rev_last_8)
 # Python idioms
 print(letters[-4:])     # Ultimos 4 caracteres de la secuencia
 print(letters[-1:])     # Ultimo caracter
-print(letters[:1])      # Primer caracter. Util porque no da error si el string es vacio
+# Primer caracter. Util porque no da error si el string es vacio
+print(letters[:1])
