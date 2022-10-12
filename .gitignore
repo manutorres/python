@@ -4,3 +4,4 @@ python.iml
 Pipfile
 Pipfile.lock
 config.py
+__pycache__/
