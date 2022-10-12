@@ -1,3 +1,6 @@
 python.iml
 .idea/*
 .vscode/*
+Pipfile
+Pipfile.lock
+config.py
