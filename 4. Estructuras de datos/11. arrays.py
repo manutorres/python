@@ -1,8 +1,8 @@
 from array import array
 
-# Menos memoria y un poco mas rapido para grandes cantidades > 10000
+# Menos memoria y un mas eficiente para grandes cantidades (> 10000 aprox)
 
-numeros = array("i", [1, 2, 3])
+numeros = array("i", [1, 2, 3])  # i = Typecode para integer
 numeros.append(4)
 numeros.pop(2)
 numeros.insert(2, 5)

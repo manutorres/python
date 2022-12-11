@@ -21,3 +21,14 @@ modify_list(original_list)
 print("Direccion de memoria de original_list despues: {}".format(id(original_list)))
 print("Direccion de memoria de original_list[0] despues: {}".format(
     id(original_list[0])))
+
+
+a = 3
+b = 3
+print("Direccion de memoria de a:", id(a))
+print("Direccion de memoria de b:", id(b))
+
+a = "Hola amigos"
+b = "Hola amigos"
+print("Direccion de memoria de a:", id(a))
+print("Direccion de memoria de b:", id(b))

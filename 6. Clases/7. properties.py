@@ -37,3 +37,6 @@ print(prod.get_precio())
 
 prod2 = Producto2(40)
 print(prod2.precio)
+
+# AtributeError
+# print(prod2.__precio)
