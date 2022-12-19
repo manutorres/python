@@ -1,4 +1,4 @@
-def multiply(*numbers):
+def multiplicar(*numbers):
     total = 1
     print(type(numbers))
     for number in numbers:
@@ -6,5 +6,5 @@ def multiply(*numbers):
     return total
 
 
-result = multiply(2, 3, 4)
+result = multiplicar(2, 3, 4)
 print(result)

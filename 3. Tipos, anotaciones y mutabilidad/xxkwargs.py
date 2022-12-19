@@ -1,7 +1,7 @@
-def save_user(**user):
+def guardar_usuario(**user):
     print(type(user))
     print(user)
     print(user["name"])
 
 
-save_user(id=1, name="Manu")
+guardar_usuario(id=1, name="Manu")
