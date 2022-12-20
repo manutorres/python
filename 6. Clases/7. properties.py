@@ -19,7 +19,7 @@ class Producto:
 class Producto2:
     def __init__(self, valor) -> None:
         # Uso precio como un atributo
-        self.precio = valor
+        self.__precio = valor
 
     @property  # Decorator para crear una propiedad
     def precio(self):
@@ -36,6 +36,8 @@ prod = Producto(50)
 print(prod.get_precio())
 
 prod2 = Producto2(40)
+print(prod2.precio)
+prod2.precio = -1
 print(prod2.precio)
 
 # AtributeError

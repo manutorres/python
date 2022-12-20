@@ -2,7 +2,8 @@
 # a otros usos, ocurra o no una excepcion
 
 try:
-    file = open("exceptions.py")
+    # Considerar modo de ejecucion (debug/consola) para determinar el nombre de archivo
+    file = open("5. Excepciones/1. exceptions.py")
     # ValueError al ingresar un valor no numerico
     edad = int(input("Ingrese su edad: "))
     # ZeroDivisionError si la edad es cero

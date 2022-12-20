@@ -19,7 +19,7 @@ class Animal:
         self.age = 1
 
     def comer(self):
-        print("Comiendo")
+        print("Animal comiendo")
 
 
 class Mamifero(Animal):
@@ -29,17 +29,18 @@ class Mamifero(Animal):
         self.weight = 10
 
     def caminar(self):
-        print("Caminando")
+        print("Mamifero caminando")
+        Animal.comer(self)  # Redundante, solo a modo de prueba
 
 
 class Pez(Animal):
     def nadar(self):
-        print("Nadando")
+        print("Pez nadando")
 
 
 mamifero = Mamifero()
-mamifero.caminar()
 mamifero.comer()
+mamifero.caminar()
 
 pez = Pez()
 pez.nadar()
