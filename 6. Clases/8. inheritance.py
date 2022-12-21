@@ -52,3 +52,4 @@ print(isinstance(pez, object))
 
 # issubclass()
 print(issubclass(Mamifero, Animal))
+print(issubclass(Pez, Mamifero))
