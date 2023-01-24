@@ -12,6 +12,7 @@
 
 # SALIDA DESEADA: [[10, 20, 30], [50, 60, 70]]
 
+# VERSION CON ALGORITMO DE LECTURA SECUENCIAL DEL ARCHIVO
 with open("11. Desafíos/numeros.txt") as archivo:
     lista_general = []
     lista = []
@@ -25,6 +26,7 @@ with open("11. Desafíos/numeros.txt") as archivo:
     print(lista_general)
 
 
+# VERSION EMPLEANDO LAS FUNCIONES MAP Y SPLIT
 with open("11. Desafíos/numeros.txt") as archivo:
     # Separo por bloques y luego los itero separando por linea y convirtiendo a int cada valor
     lista = [list(map(int, bloque.split()))
